@@ -102,4 +102,4 @@ Output:
 
 Although the example presented is simple, the decorator can be used to implement complex before/ after actions by chaining operations in multiple decorators. One could add timing, logging, and transactions to the same object simply by creating the appropriate decorators and adding them in a chain at runtime. A business rule could determine that a special row needs inserted in a database marking an entity in some way and a decorator adding the needed functionality could be added to the object when the rule is triggered, changing the course of action for the object in question.
 
-[output]: https://github.com/hbennet/decorator-pattern/decorator-pattern.png
+[output]: decorator-pattern.png
